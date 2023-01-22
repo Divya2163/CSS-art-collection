@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+html{
+    background-color:  #9CA7A9;
+    width: 100%;
+}
+.player {
+    height: 300px;
+    width: 600px;
+    background-color: #1e1e1e;
+    margin-left: 450px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 7px 7px #7d7c7c;
+}
+.player .inner{
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    background-color: #D9CD97;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.player .bottom{
+    position: absolute;
+    border-bottom: 80px solid rgb(45, 45, 45);
+	border-left: 20px solid transparent;
+    border-top-right-radius: 50px;
+	border-right: 20px solid transparent;
+    border-top-left-radius: 50px;
+	height: 0;
+	width: 400px;
+    margin-top: 220px;
+    margin-left: 80px;
+}
+.player .tape{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    background-color: #1e1e1e;
+    margin-top: 95px;
+    margin-left: 150px;
+    border-radius: 50px;
+    z-index: 1;
+}
+.player .circle_1{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #9CA7A9;
+    margin-left: 157px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+.player .circle_2{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #9CA7A9;
+    margin-left: 382px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+.player .line1{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    background-color: #B35864;
+    margin-top: 95px;
+    margin-left: 50px;
+    z-index: 0;
+}
+.player .line2{
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    background-color: #D08A78;
+    margin-top: 110px;
+    margin-left: 50px;
+    z-index: 0;
+}
+.player .line3{
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    background-color: #6A877F;
+    margin-top: 125px;
+    margin-left: 50px;
+    z-index: 0;
+}
+.player .line4{
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    background-color: #648C49;
+    margin-top: 140px;
+    margin-left: 50px;
+    z-index: 0;
+}
+.player .text1{
+    position: absolute;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 154px;
+    margin-left: 75px;
+}
+.player .text2{
+    position: absolute;
+    font-size: 14px;
+    font-family: monospace;
+    margin-top: 156px;
+    margin-left: 390px;
+}
+.player .title{
+    position: absolute;
+    font-size: 36px;
+    font-family: 'Covered By Your Grace', cursive;
+    margin-top: 8px;
+    margin-left: 200px;
+}
+.player .textl1{
+    position: absolute;
+    width: 500px;
+    height: 0.5px;
+    background-color: #1e1e1e;
+    margin-top: 55px;
+    margin-left: 50px;
+    z-index: 0;
+}
+.player .textl2{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: #1e1e1e;
+    margin-top: 80px;
+    margin-left: 50px;
+    z-index: 0;
+}
+.player .circle_1 .rect1{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 7px;
+    margin-top: 43px;
+    z-index: 1;
+    transform: rotate(30deg);
+}
+.player .circle_1 .rect2{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: -4px;
+    margin-top: 20px;
+    z-index: 1;
+    transform: rotate(80deg);
+}
+.player .circle_1 .rect3{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 10px;
+    margin-top: 1px;
+    z-index: 1;
+    transform: rotate(150deg);
+}
+.player .circle_1 .rect4{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 33px;
+    margin-top: 3px;
+    z-index: 1;
+    transform: rotate(-130deg);
+}
+.player .circle_1 .rect5{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 43px;
+    margin-top: 24px;
+    z-index: 1;
+    transform: rotate(-85deg);
+}
+.player .circle_1 .rect6{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 31px;
+    margin-top: 44px;
+    z-index: 1;
+    transform: rotate(-35deg);
+}
+.player .circle_2 .rect1{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 7px;
+    margin-top: 43px;
+    z-index: 1;
+    transform: rotate(30deg);
+}
+.player .circle_2 .rect2{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: -4px;
+    margin-top: 20px;
+    z-index: 1;
+    transform: rotate(80deg);
+}
+.player .circle_2 .rect3{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 10px;
+    margin-top: 1px;
+    z-index: 1;
+    transform: rotate(150deg);
+}
+.player .circle_2 .rect4{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 33px;
+    margin-top: 3px;
+    z-index: 1;
+    transform: rotate(-130deg);
+}
+.player .circle_2 .rect5{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 43px;
+    margin-top: 24px;
+    z-index: 1;
+    transform: rotate(-85deg);
+}
+.player .circle_2 .rect6{
+    position: absolute;
+    border-bottom: 15px solid rgb(27, 27, 27);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 7px;
+    margin-left: 31px;
+    margin-top: 44px;
+    z-index: 1;
+    transform: rotate(-35deg);
+}
+.player .roller{
+    width: 125px;
+    height: 50px;
+    position:absolute;
+    margin-left: 238px;
+    margin-top: 104px;
+    background-color: #3a2d2d;
+    z-index: 1;
+}
+.player .roller .roll{
+    width: 60px;
+    height: 48px;
+    position:absolute;
+    margin-left: 46px;
+    margin-top: 1px;
+    background-color: #9CA7A9;
+    z-index: 1;
+}
+.player .roller .roll1{
+    width: 50px;
+    height: 51px;
+    border-radius: 100%;
+    position:absolute;
+    margin-left: 7px;
+    margin-top: 0px;
+    background-color: #3a2d2d;
+    z-index: 1;
+}
